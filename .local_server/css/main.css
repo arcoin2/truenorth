@@ -1,0 +1,89 @@
+.deleteButton { background-color: #191f26; }
+
+.card { font-weight: 300; -webkit-animation: name 0.5s; animation: name 0.5s; border: 1px solid #e0e0e0; border-radius: 10px; height: 200px; width: 100%; margin: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; color: #252525; -webkit-transition: all 0.3s; transition: all 0.3s; }
+
+.card .center { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.card:hover { border: 1px solid #ecebeb; -webkit-box-shadow: -1px 2px 22px 5px rgba(0, 0, 0, 0.05); box-shadow: -1px 2px 22px 5px rgba(0, 0, 0, 0.05); }
+
+@-webkit-keyframes name { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+
+@keyframes name { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+
+.spinner { width: 100%; height: 100%; background-color: #191f26; position: fixed; top: 0; left: 0; z-index: 99; pointer-events: all; }
+
+.gif { -webkit-animation: name 0.3s; animation: name 0.3s; width: 100%; opacity: 0.9; z-index: 100; }
+
+.minigif { -webkit-animation: name 0.3s; animation: name 0.3s; width: 100%; opacity: 0.9; z-index: 100; border-radius: 10px; }
+
+@keyframes name { 0% { opacity: 0; }
+  25% { opacity: 0.25; }
+  50% { opacity: 0.5; }
+  75% { opacity: 0.75; }
+  100% { opacity: 1; } }
+
+.cardsContainer { width: 100%; height: 100%; }
+
+.fullSize { width: 100vw; height: 100vh; }
+
+.width100 { width: 100%; }
+
+.width70 { width: 70%; }
+
+.backgroundBlack { background-color: black; }
+
+.b1 { border: 2px solid red; }
+
+.mt-5 { margin-top: 50px; }
+
+.navBar { width: 100%; height: 60px; -webkit-box-shadow: -1px 2px 22px 5px rgba(0, 0, 0, 0.12); box-shadow: -1px 2px 22px 5px rgba(0, 0, 0, 0.12); }
+
+.navBar .logo { height: 50px; margin-top: 5px; }
+
+.searchBar { width: 100%; border-radius: 5px; }
+
+header.menu { width: 100%; position: relative; z-index: 10; }
+
+header.menu div.menu-container { width: 100%; background-color: black; padding: 0 20px; text-align: left; }
+
+header.menu div.menu-container div.menu-holder { position: relative; width: 100%; max-width: 1280px; margin: 0 auto; }
+
+header.menu div.menu-container h1 { font-family: Arial, Helvetica, sans-serif; font-size: 24px; line-height: 70px; color: white; text-align: left; display: inline-block; }
+
+header.menu div.menu-container nav { display: inline-block; margin-left: 60px; }
+
+header.menu div.menu-container nav i { color: white; font-size: 30px; line-height: 70px; }
+
+header.menu div.menu-container nav i.search { position: absolute; right: 10px; top: 0; }
+
+header.menu div.menu-container nav a.nav-item { font-family: Helvetica, Arial, Sans-Serif; font-size: 17px; line-height: 70px; text-transform: uppercase; text-decoration: none; white-space: nowrap; border-bottom: 1px solid transparent; color: #FFF; margin-right: 20px; }
+
+header.menu div.search-container { position: absolute; background-color: white; z-index: 20; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 100%; padding: 5px; background-color: white; border-bottom: 1px solid #CCC; display: none; }
+
+header.menu div.search-container.showing { display: block; }
+
+header.menu div.search-container input[type='text'] { min-width: 100%; font-size: 36px; line-height: 50px; border: 1px solid #CCC; padding: 0 10px; }
+
+header.menu div.search-container i.close { position: absolute; right: 10px; top: 5px; font-size: 36px; line-height: 50px; }
+
+.homepageBackground { position: fixed; width: 100%; top: 0px; left: 0; }
+
+html, html * { -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; font-family: 'Roboto', sans-serif; }
+
+html, body { width: 100%; height: 100%; }
+
+main { width: 100%; height: 100%; display: block; position: relative; }
+
+main * { -webkit-font-smoothing: antialiased; }
+
+main a { -webkit-transition: opacity .5s; transition: opacity .5s; }
+
+main a:hover { opacity: 0.7; }
+
+main a:visited { color: inherit; }
+
+main div.inner { width: 100%; height: auto; background-color: #960000; }
+
+/*# sourceMappingURL=main.css.map */

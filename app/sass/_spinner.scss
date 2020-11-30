@@ -1,0 +1,44 @@
+.spinner {
+  width: 100%;
+  height: 100%;
+  background-color: #191f26;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  pointer-events: all;
+}
+
+.gif {
+  animation: name 0.3s;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 100;
+}
+
+.minigif{
+  
+  animation: name 0.3s;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+@keyframes name {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
