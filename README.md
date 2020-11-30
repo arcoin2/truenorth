@@ -1,10 +1,10 @@
-## TrueNorth Challenge 
+## TrueNorth Challenge guide
 
 1 - npm install
 
 2 - npm run servers 
 
-## Builds the environment to be used on both the server and the client
+## With "npm run servers" run the environment to be used on both , server and client
 
 ## Disable CORS browser protection
 
