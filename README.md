@@ -1,5 +1,13 @@
 ## TrueNorth Challenge guide
 
+1 - git clone https://github.com/arcoin2/truenorth.git
+
+2 - cd truenorth
+
+3 - git checkout master
+
+Into Visual Studio Code or similar 
+
 1 - npm install
 
 2 - npm run servers 
